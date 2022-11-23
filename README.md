@@ -18,7 +18,7 @@
 
 ## 2. Дополнительный софт
 
-> Установите [composer](https://getcomposer.org/download/) при сборке проекта запустить `composer install --no-dev`
+> Установить [composer](https://getcomposer.org/download/) и при сборке проекта запустить `composer install --no-dev`
 
 ## 3. php расширения для проекта:
 
