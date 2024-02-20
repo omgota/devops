@@ -1,4 +1,4 @@
-# Тестовое для DevOps (упрощенная)
+# Тестовое для DevOps
 
 ## Описание
 Необходимо написать конфигурацию docker (docker-compose.yml) для чистого [laravel](https://lumen.laravel.com/docs/9.x#installing-lumen) проекта со всеми зависимостями.
