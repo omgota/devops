@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     unzip
 
 # Установка расширений PHP
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+RUN docker-php-ext-install exif pcntl bcmath gd xml xsl soap pdo_pgsql mbstring intl opcache sockets
 
 # Установка Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
